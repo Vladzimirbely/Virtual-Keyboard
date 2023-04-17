@@ -7,7 +7,7 @@ let clear = document.querySelector('.clear');
 function clickKey() {
     for (let i of key) {
         i.addEventListener('click', () => {
-            textArea.innerHTML += i.innerHTML;
+            textArea.textContent += i.textContent;
         })
     }
 } 
