@@ -23,6 +23,22 @@
     background-color: #888888;
 }
 
+.keyboard.upper {
+    display: none;
+}
+
+.keyboard.upper.active {
+    display: block;
+}
+
+.keyboard.lower {
+    display: block;
+}
+
+.keyboard.lower.active {
+    display: none;
+}
+
 .keyboard .keyboard-line {
     display: flex;
     justify-content: center;
