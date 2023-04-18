@@ -7,7 +7,7 @@
 }
 
 .textarea {
-    width: 700px;
+    width: 800px;
     height: 150px;
     margin-top: 20%;
     padding: 1rem;
@@ -16,7 +16,7 @@
 }
 
 .keyboard {
-    width: 700px;
+    width: 800px;
     margin-top: 1rem;
     padding: 2rem;
     box-sizing: border-box;
@@ -51,6 +51,10 @@
     cursor: pointer;
 }
 
+.keyboard .keyboard-line button.active {
+    background-color: #00FF00;
+}
+
 .keyboard .keyboard-line button:hover {
     transition: 0.5s;
     background-color: #00FF00;
@@ -63,5 +67,5 @@
 }
 
 .keyboard .keyboard-line .key-space {
-    width: 169px;
+    width: 154px;
 }
