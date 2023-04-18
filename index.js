@@ -45,6 +45,7 @@ function getSpecialKey() {
                     break;
                 case 'enter':
                     textArea.textContent = textArea.textContent.replace(/.....$/, '') + '\n';
+                    break;
                 case 'capslock':
                     if (!(lowKeyboard.classList.contains('active'))) {
                         lowKeyboard.classList.add('active');
