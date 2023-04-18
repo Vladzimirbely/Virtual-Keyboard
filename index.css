@@ -1,4 +1,5 @@
-.container {
+.container,
+.container-ru {
     max-width: 1280px;
     display: flex;
     flex-direction: column;
