@@ -310,6 +310,14 @@ document.addEventListener('keydown', e => {
         } 
     }
 
+    if (e.key === 'Shift' && keyNN.textContent === 'Ю') {
+        for (let i = 0; i < 33; i++) {
+            keyboard.classList.remove('active');
+            upper.classList.remove('active');
+            arr[i].textContent = rusLetter[i].toUpperCase();
+        } 
+    }
+
     if (e.key === 'Tab') {
         textArea.textContent = textArea.textContent.replace(/Tab$/, '') + '   ';
     }
