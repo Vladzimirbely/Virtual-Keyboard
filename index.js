@@ -372,7 +372,7 @@ function clickSpecialKeysRU() {
 
             if (e.textContent === 'Shift') {
                 if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
-                    textArea.textContent = textArea.textContent.replace(/Control/, '');
+                    textArea.textContent = textArea.textContent.replace(/Shift/, '');
                 }
             }
         })
