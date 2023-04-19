@@ -53,6 +53,7 @@
 }
 
 .keyboard .keyboard-line button.active {
+    border-radius: 15px;
     background-color: #00FF00;
 }
 
