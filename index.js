@@ -314,3 +314,81 @@ document.addEventListener('keyup', (e) => {
         } 
     }
 })
+
+function clickShiftRu() {
+    specialKeys.forEach((e) => {
+        e.addEventListener('mousedown', () => {
+            if (e.textContent === 'Shift' && keyNN.textContent === 'ю') {
+                for (let i = 0; i < 33; i++) {
+                    keyboard.classList.remove('active');
+                    upper.classList.remove('active');
+                    arr[i].textContent = rusLetter[i].toUpperCase();
+                }
+            }
+        })
+
+        e.addEventListener('mouseup', () => {
+            if (e.textContent === 'Shift' && keyNN.textContent === 'Ю') {
+                for (let i = 0; i < 33; i++) {
+                    arr[i].textContent = rusLetter[i];
+                } 
+            }
+        })
+    })
+}
+
+clickShiftRu();
+
+function clickSpecialKeysRU() {
+    specialKeys.forEach((e) => {
+        e.addEventListener('click', () => {
+            if (e.textContent === 'CapsLock') {
+                for (let i = 0; i < 33; i++) {
+                    if (keyNN.textContent === 'ю') {   
+                        keyboard.classList.remove('active');
+                        upper.classList.remove('active');
+                        arr[i].textContent = rusLetter[i].toUpperCase();
+                    } else if (keyNN.textContent === 'Ю') {
+                        keyboard.classList.remove('active');
+                        upper.classList.remove('active');
+                        arr[i].textContent = rusLetter[i];
+                    }
+                } 
+            }
+
+            if (e.textContent === 'Control') {
+                for (let i = 0; i < 33; i++) {
+                    if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
+                        textArea.textContent = textArea.textContent.replace(/...$/, '');
+                    }
+                } 
+            }
+
+            if (e.textContent === 'Shift') {
+                for (let i = 0; i < 33; i++) {
+                    if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
+                        textArea.textContent = textArea.textContent.replace(/.....$/, '');
+                    }
+                } 
+            }
+
+            if (e.textContent === 'Delete') {
+                for (let i = 0; i < 33; i++) {
+                    if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
+                        textArea.textContent = textArea.textContent.replace(/......$/, '');
+                    }
+                } 
+            }
+
+            if (e.textContent === 'backspace') {
+                for (let i = 0; i < 33; i++) {
+                    if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
+                        textArea.textContent = textArea.textContent.replace(/.........$/, '');
+                    }
+                } 
+            }
+        })
+    })
+}
+
+clickSpecialKeysRU();
