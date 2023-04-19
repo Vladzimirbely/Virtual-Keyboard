@@ -77,6 +77,12 @@
     width: 154px;
 }
 
+.capslock.active {
+    border-radius: 15px;
+    transition: 0.5s;
+    background-color: #00FF00;
+}
+
 .info {
     font-size: 2rem;
     color: rgba(101,134,177,0.8);
