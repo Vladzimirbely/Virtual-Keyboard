@@ -1,5 +1,5 @@
 const upperKeyboard = '<div class="keyboard upper"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">Q</button> <button class="w">W</button> <button class="e">E</button> <button class="r">R</button> <button class="t">T</button> <button class="y">Y</button> <button class="u">U</button> <button class="i">I</button> <button class="o">O</button> <button class="p">P</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button>CapsLock</button> <button class="a">A</button> <button class="s">S</button> <button class="d">D</button> <button class="f">F</button> <button class="g">G</button> <button class="h">H</button> <button class="j">J</button> <button class="k">K</button> <button class="l">L</button> <button class="kk">;</button> <button class="ll">'` + '</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">Z</button> <button class="x">X</button> <button class="c">C</button> <button class="v">V</button> <button class="b">B</button> <button class="n">N</button> <button class="m">M</button> <button class="mm">,</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>'
-const lowerKeyboard = '<div class="container"> <div class="textarea"></div> <div class="keyboard lower"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">q</button> <button class="w">w</button> <button class="e">e</button> <button class="r">r</button> <button class="t">t</button> <button class="y">y</button> <button class="u">u</button> <button class="i">i</button> <button class="o">o</button> <button class="p">p</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button>CapsLock</button> <button class="a">a</button> <button class="s">s</button> <button class="d">d</button> <button class="f">f</button> <button class="g">g</button> <button class="h">h</button> <button class="j">j</button> <button class="k">k</button> <button class="l">l</button> <button class="kk">;</button> <button class="ll">'</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">z</button> <button class="x">x</button> <button class="c">c</button> <button class="v">v</button> <button class="b">b</button> <button class="n">n</button> <button class="m">m</button> <button class="mm">,</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>` + upperKeyboard + '</div>';
+const lowerKeyboard = '<div class="container"> <div class="header">Virtual Keyboard</div> <pre class="textarea"></pre> <div class="keyboard lower"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">q</button> <button class="w">w</button> <button class="e">e</button> <button class="r">r</button> <button class="t">t</button> <button class="y">y</button> <button class="u">u</button> <button class="i">i</button> <button class="o">o</button> <button class="p">p</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button>CapsLock</button> <button class="a">a</button> <button class="s">s</button> <button class="d">d</button> <button class="f">f</button> <button class="g">g</button> <button class="h">h</button> <button class="j">j</button> <button class="k">k</button> <button class="l">l</button> <button class="kk">;</button> <button class="ll">'</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">z</button> <button class="x">x</button> <button class="c">c</button> <button class="v">v</button> <button class="b">b</button> <button class="n">n</button> <button class="m">m</button> <button class="mm">,</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>` + upperKeyboard + '<div class="info">Keyboard created in Windows system</div><div class="info">For switch language: left ctrl + alt</div></div>';
 document.body.innerHTML = lowerKeyboard;
 
 const keyQ = document.querySelector('.q');
@@ -63,35 +63,35 @@ function getSpecialKey() {
         e.addEventListener('click', () => {
             switch (e.textContent) {
                 case 'backspace':
-                    textArea.textContent = textArea.textContent.replace(/..........$/, '');
+                    textArea.textContent = textArea.textContent.replace(/backspace/, '').replace(/.$/, '');
                     break;
                 case '': 
                     textArea.textContent += ' ';
                     break;
                 case 'Tab':
-                    textArea.textContent = textArea.textContent.replace(/...$/, '') + '    ';
+                    textArea.textContent = textArea.textContent.replace(/Tab$/, '') + '   ';
                     break;
                 case 'Control': 
-                    textArea.textContent = textArea.textContent.replace(/....$/, '') + '';
+                    textArea.textContent = textArea.textContent.replace(/Control$/, '') + '';
                     break;
                 case 'Win': 
                     textArea.textContent = textArea.textContent.replace(/...$/, '') + '';
                     break;
                 case 'Alt': 
-                    textArea.textContent = textArea.textContent.replace(/...$/, '') + '';
+                    textArea.textContent = textArea.textContent.replace(/Alt$/, '') + '';
                     break;
                 case 'Enter':
-                    textArea.textContent = textArea.textContent.replace(/.....$/, '') + '\n';
+                    textArea.textContent = textArea.textContent.replace(/Enter$/, '') + '\n';
                     break;
                 case 'CapsLock':
                     if (!(lowKeyboard.classList.contains('active'))) {
                         lowKeyboard.classList.add('active');
                         upKeyboard.classList.add('active');
-                        textArea.textContent = textArea.textContent.replace(/........$/, '');
+                        textArea.textContent = textArea.textContent.replace(/CapsLock$/, '');
                     } else {
                         lowKeyboard.classList.remove('active');
                         upKeyboard.classList.remove('active');
-                        textArea.textContent = textArea.textContent.replace(/........$/, '');
+                        textArea.textContent = textArea.textContent.replace(/CapsLock$/, '');
                     }
                     break;
             }
@@ -105,7 +105,7 @@ function clickShift() {
             if (e.textContent === 'Shift') {
                 lowKeyboard.classList.add('active');
                 upKeyboard.classList.add('active');
-                textArea.textContent = textArea.textContent.replace(/.....$/, '');
+                textArea.textContent = textArea.textContent.replace(/Shift$/, '');
             }
         })
 
@@ -113,7 +113,7 @@ function clickShift() {
             if (e.textContent === 'Shift') {
                 lowKeyboard.classList.remove('active');
                 upKeyboard.classList.remove('active');
-                textArea.textContent = textArea.textContent.replace(/.....$/, '');
+                textArea.textContent = textArea.textContent.replace(/Shift$/, '');
             }
         })
     })
@@ -162,7 +162,7 @@ function pressOnKey() {
             if (e.key === 'Shift') {
                 lowKeyboard.classList.remove('active');
                 upKeyboard.classList.remove('active');
-                textArea.textContent = textArea.textContent.replace(/........$/, '');
+                textArea.textContent = textArea.textContent.replace(/Shift$/, '');
             }
 
             if (e.key.toUpperCase() === elem.textContent.toUpperCase()) {
@@ -215,30 +215,26 @@ document.addEventListener('keydown', (e) => {
         if (!(lowKeyboard.classList.contains('active'))) {
             lowKeyboard.classList.add('active');
             upKeyboard.classList.add('active');
-            textArea.textContent = textArea.textContent.replace(/........$/, '');
+            textArea.textContent = textArea.textContent.replace(/CapsLock$/, '');
         } else {
             lowKeyboard.classList.remove('active');
             upKeyboard.classList.remove('active');
-            textArea.textContent = textArea.textContent.replace(/........$/, '');
+            textArea.textContent = textArea.textContent.replace(/CapsLock$/, '');
         }
     }
 
     if (e.key === 'Shift') {
         lowKeyboard.classList.add('active');
         upKeyboard.classList.add('active');
-        textArea.textContent = textArea.textContent.replace(/........$/, '');
+        textArea.textContent = textArea.textContent.replace(/Shift$/, '');
     }
 
     if (e.key === 'Backspace') {
-        textArea.textContent = textArea.textContent.replace(/.$/, '');
+        textArea.textContent = textArea.textContent.replace(/backspace/, '').replace(/.$/, '')
     }
                     
     if (e.key === '') {
         textArea.textContent += ' ';
-    }
-                    
-    if (e.key === 'Tab') {
-        textArea.textContent = textArea.textContent + '    ';
     }
 
     if (e.key === 'Enter') {
@@ -313,6 +309,10 @@ document.addEventListener('keydown', e => {
             arr[i].textContent = rusLetter[i].toUpperCase();
         } 
     }
+
+    if (e.key === 'Tab') {
+        textArea.textContent = textArea.textContent.replace(/Tab$/, '') + '   ';
+    }
 })
 
 document.addEventListener('keyup', (e) => {
@@ -366,13 +366,13 @@ function clickSpecialKeysRU() {
 
             if (e.textContent === 'Control') {
                 if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
-                    textArea.textContent = textArea.textContent.replace(/...$/, '');
+                    textArea.textContent = textArea.textContent.replace(/Control/, '');
                 }
             }
 
             if (e.textContent === 'Shift') {
                 if (keyNN.textContent === 'ю' || keyNN.textContent === 'Ю') {   
-                    textArea.textContent = textArea.textContent.replace(/.....$/, '');
+                    textArea.textContent = textArea.textContent.replace(/Control/, '');
                 }
             }
         })

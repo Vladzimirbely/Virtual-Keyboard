@@ -7,10 +7,15 @@
     margin: 0 auto;
 }
 
+.header {
+    font-size: 5rem;
+    color: rgba(101,134,177,0.8);
+}
+
 .textarea {
     width: 800px;
     height: 150px;
-    margin-top: 20%;
+    margin-top: 8%;
     padding: 1rem;
     box-sizing: border-box;
     border: 1px solid #000000;
@@ -70,4 +75,9 @@
 
 .keyboard .keyboard-line .key-space {
     width: 154px;
+}
+
+.info {
+    font-size: 2rem;
+    color: rgba(101,134,177,0.8);
 }
