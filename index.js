@@ -399,15 +399,19 @@ function setLocalStorage() {
 
 window.addEventListener('beforeunload', setLocalStorage);
 
-function getLanguage() {
+function getFirstStart() {
     for (let i = 0; i < 33; i++) {
-        arr[i].textContent = localStorage.getItem('language').split(',')[i];        
+        arr[i].textContent = enLetter;
     }
 }
 
+window.addEventListener('load', getFirstStart);
+
 function getLocalStorage() {
     textArea.textContent = localStorage.getItem('textarea');
-    getLanguage();
+    for (let i = 0; i < 33; i++) {
+        arr[i].textContent = localStorage.getItem('language').split(',')[i];
+    }
 }
 
 window.addEventListener('load', getLocalStorage);
