@@ -1,5 +1,5 @@
-const upperKeyboard = '<div class="keyboard upper"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">Q</button> <button class="w">W</button> <button class="e">E</button> <button class="r">R</button> <button class="t">T</button> <button class="y">Y</button> <button class="u">U</button> <button class="i">I</button> <button class="o">O</button> <button class="p">P</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button class="capslock">CapsLock</button> <button class="a">A</button> <button class="s">S</button> <button class="d">D</button> <button class="f">F</button> <button class="g">G</button> <button class="h">H</button> <button class="j">J</button> <button class="k">K</button> <button class="l">L</button> <button class="kk">;</button> <button class="ll">'` + '</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">Z</button> <button class="x">X</button> <button class="c">C</button> <button class="v">V</button> <button class="b">B</button> <button class="n">N</button> <button class="m">M</button> <button class="mm">,</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>'
-const lowerKeyboard = '<div class="container"> <div class="header">Virtual Keyboard</div> <pre class="textarea"></pre> <div class="keyboard lower"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">q</button> <button class="w">w</button> <button class="e">e</button> <button class="r">r</button> <button class="t">t</button> <button class="y">y</button> <button class="u">u</button> <button class="i">i</button> <button class="o">o</button> <button class="p">p</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button class="capslock">CapsLock</button> <button class="a">a</button> <button class="s">s</button> <button class="d">d</button> <button class="f">f</button> <button class="g">g</button> <button class="h">h</button> <button class="j">j</button> <button class="k">k</button> <button class="l">l</button> <button class="kk">;</button> <button class="ll">'</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">z</button> <button class="x">x</button> <button class="c">c</button> <button class="v">v</button> <button class="b">b</button> <button class="n">n</button> <button class="m">m</button> <button class="mm">,</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>` + upperKeyboard + '<div class="info">The keyboard was created in the Windows OS system</div><div class="info">For switch language: left ctrl + alt</div></div>';
+const upperKeyboard = '<div class="keyboard upper"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">Q</button> <button class="w">W</button> <button class="e">E</button> <button class="r">R</button> <button class="t">T</button> <button class="y">Y</button> <button class="u">U</button> <button class="i">I</button> <button class="o">O</button> <button class="p">P</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button class="capslock">CapsLock</button> <button class="a">A</button> <button class="s">S</button> <button class="d">D</button> <button class="f">F</button> <button class="g">G</button> <button class="h">H</button> <button class="j">J</button> <button class="k">K</button> <button class="l">L</button> <button class="kk">;</button> <button class="ll">'` + '</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">Z</button> <button class="x">X</button> <button class="c">C</button> <button class="v">V</button> <button class="b">B</button> <button class="n">N</button> <button class="m">M</button> <button class="mm">&#707;</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>'
+const lowerKeyboard = '<div class="container"> <div class="header">Virtual Keyboard</div> <pre class="textarea"></pre> <div class="keyboard lower en"> <div class="keyboard-line"> <button>`' + `</button> <button>1</button> <button>2</button> <button>3</button> <button>4</button> <button>5</button> <button>6</button> <button>7</button> <button>8</button> <button>9</button> <button>0</button> <button>-</button> <button>=</button> <button>backspace</button> </div> <div class="keyboard-line"> <button>Tab</button> <button class="q">q</button> <button class="w">w</button> <button class="e">e</button> <button class="r">r</button> <button class="t">t</button> <button class="y">y</button> <button class="u">u</button> <button class="i">i</button> <button class="o">o</button> <button class="p">p</button> <button class="pp">[</button> <button class="oo">]</button> <button>&#92;</button> </div> <div class="keyboard-line"> <button class="capslock">CapsLock</button> <button class="a">a</button> <button class="s">s</button> <button class="d">d</button> <button class="f">f</button> <button class="g">g</button> <button class="h">h</button> <button class="j">j</button> <button class="k">k</button> <button class="l">l</button> <button class="kk">;</button> <button class="ll">'</button> <button>Enter</button> </div> <div class="keyboard-line"> <button class="shift">Shift</button> <button class="z">z</button> <button class="x">x</button> <button class="c">c</button> <button class="v">v</button> <button class="b">b</button> <button class="n">n</button> <button class="m">m</button> <button class="mm">&#707;</button> <button class="nn">.</button> <button class="mmm">/</button> <button class="arrow-up">&#11165;</button> <button class="shift">Shift</button> </div> <div class="keyboard-line"> <button>Control</button> <button class="win">Win</button> <button>Alt</button> <button class="key-space"></button> <button>Alt</button> <button class="arrow-left">&#11164;</button> <button class="arrow-down">&#11167;</button> <button class="arrow-right">&#11166;</button> <button>Control</button> </div> </div>` + upperKeyboard + '<div class="info">The keyboard was created in the Windows OS system</div><div class="info">For switch language: left ctrl + alt</div></div>';
 document.body.innerHTML = lowerKeyboard;
 
 const keyQ = document.querySelector('.q');
@@ -38,7 +38,7 @@ const keyMMM = document.querySelector('.mmm');
 
 const arr = [keyQ, keyW, keyE, keyR, keyT, keyY, keyU, keyI, keyO, keyP, keyPP, keyOO, keyA, keyS, keyD, keyF, keyG, keyH, keyJ, keyK, keyL, keyLL, keyKK, keyZ, keyX, keyC, keyV, keyB, keyN, keyM, keyMM, keyNN, keyMMM];
 const rusLetter = ['й', 'ц', 'у', 'к', 'е', 'н', 'г', 'ш', 'щ', 'з', 'х', 'ъ', 'ф', 'ы', 'в', 'а', 'п', 'р', 'о', 'л', 'д', 'ж', 'э', 'я', 'ч', 'с', 'м', 'и', 'т', 'ь', 'б', 'ю', '.'];
-const enLetter = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', `'`, 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/'];
+const enLetter = ['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', `'`, 'z', 'x', 'c', 'v', 'b', 'n', 'm', '>', '.', '/'];
 
 const key = document.querySelectorAll('.keyboard-line button');
 const textArea = document.querySelector('.textarea');
@@ -271,10 +271,12 @@ function getRussianKeyboard() {
             arr[i].textContent = rusLetter[i];
             keyboard.classList.remove('en');
             keyboard.classList.add('rus');
+            localStorage.setItem('language', enLetter);
         } else {
             arr[i].textContent = enLetter[i];
             keyboard.classList.remove('rus');
             keyboard.classList.add('en');
+            localStorage.setItem('language', rusLetter);
         }
     }
 }
@@ -284,6 +286,8 @@ runOnKeys(
     "ShiftLeft",
     "AltLeft"
 );
+
+window.addEventListener('beforeunload', getRussianKeyboard);
 
 const upper = document.querySelector('.upper');
 
@@ -395,8 +399,15 @@ function setLocalStorage() {
 
 window.addEventListener('beforeunload', setLocalStorage);
 
+function getLanguage() {
+    for (let i = 0; i < 33; i++) {
+        arr[i].textContent = localStorage.getItem('language').toString().split(',')[i];        
+    }
+}
+
 function getLocalStorage() {
-    textArea.innerHTML = localStorage.getItem('textarea');
+    textArea.textContent = localStorage.getItem('textarea');
+    getLanguage();
 }
 
 window.addEventListener('load', getLocalStorage);
