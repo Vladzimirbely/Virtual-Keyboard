@@ -401,7 +401,7 @@ window.addEventListener('beforeunload', setLocalStorage);
 
 function getLanguage() {
     for (let i = 0; i < 33; i++) {
-        arr[i].textContent = localStorage.getItem('language').toString().split(',')[i];        
+        arr[i].textContent = localStorage.getItem('language').split(',')[i];        
     }
 }
 
