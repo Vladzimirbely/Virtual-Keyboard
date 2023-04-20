@@ -399,14 +399,6 @@ function setLocalStorage() {
 
 window.addEventListener('beforeunload', setLocalStorage);
 
-function getFirstStart() {
-    for (let i = 0; i < 33; i++) {
-        arr[i].textContent = enLetter;
-    }
-}
-
-window.addEventListener('load', getFirstStart);
-
 function getLocalStorage() {
     textArea.textContent = localStorage.getItem('textarea');
     for (let i = 0; i < 33; i++) {
